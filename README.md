@@ -141,6 +141,7 @@ POST /generate
   "output": "Explain AI and its impact on the world..."
 }
 ```
+---
 ## Cấu trúc project
 
 ```bash

@@ -125,7 +125,7 @@ POST /generate
 
 ## Example Output
 
-### Input:
+**Input:**
 
 ```json
 {
@@ -133,7 +133,7 @@ POST /generate
 }
 ```
 
-### Output:
+ **Output:**
 
 ```json
 {

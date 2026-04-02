@@ -123,20 +123,18 @@ POST /generate
 
 ---
 
-## Kiểm thử API bằng Python
+## Example Output
 
-File `test_api.py`:
-
-```python
-import requests
-
-url = "http://127.0.0.1:8000/generate"
- 
-data = {
-    "prompt": "Explain AI"
+Input:
+{
+  "prompt": "Explain AI"
 }
 
-print(requests.post(url, json=data).json())
+Output:
+{
+  "input": "Explain AI",
+  "output": "Explain AI and its impact on the world..."
+}
 ```
 
 ---

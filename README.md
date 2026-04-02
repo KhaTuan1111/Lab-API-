@@ -125,34 +125,30 @@ POST /generate
 
 ## Example Output
 
-Input:
+### Input:
+
+```json
 {
   "prompt": "Explain AI"
 }
+```
 
-Output:
+### Output:
+
+```json
 {
   "input": "Explain AI",
   "output": "Explain AI and its impact on the world..."
 }
 ```
+## Cấu trúc project
 
----
-
-## Video demo
-
-(Sẽ cập nhật sau)
-
----
-
-##  Cấu trúc project
-
-```
+```bash
 Lab_API/
-│── main.py
-│── test_api.py
-│── requirements.txt
-│── README.md
+├── main.py
+├── test_api.py
+├── requirements.txt
+└── README.md
 ```
 
 ---
